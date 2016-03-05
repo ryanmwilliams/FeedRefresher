@@ -1,0 +1,28 @@
+{
+  "feeds": [
+    {
+      "feedId": 1,
+      "maxFilesToDownload": 1,
+      "podcastUrl": "http://www.pwop.com/feed.aspx?show=dotnetrocks&filetype=master&tags=ASP.NET%20MVC%2CASP.NET%2CArchitecture%2CAzure%2COpen%20Source%2CXamarin%2CInternet%20of%20Things",
+      "destinationDirectory": "C:\\MP3s\\music\\dotnetrocks",
+      "targetPlaylistPaths": [
+        "C:\\MP3s\\playlist\\dotnetrocks.pls",
+        "C:\\MP3s\\playlist\\newpodcasts.pls"
+      ]
+    },
+    {
+      "feedId": 4,
+      "maxFilesToDownload": 4,
+      "podcastUrl": "http://therequiem.libsyn.com/rss",
+      "destinationDirectory": "C:\\MP3s\\music\\therequiem",
+      "targetPlaylistPaths": [
+        "C:\\MP3s\\playlist\\newpodcasts.pls",
+        "C:\\MP3s\\playlist\\generalpodcasts.pls"
+      ],
+      "filterTitlesOn": [
+        "Frequencies"
+      ]
+    }
+
+  ]
+}
